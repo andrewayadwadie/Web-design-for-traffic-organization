@@ -1,0 +1,419 @@
+ *{
+    font-family: 'Cairo', sans-serif;
+font-family: 'Amiri', serif;
+
+}
+
+.logo{
+    height: 70px;
+}
+.navbar-light .navbar-brand{
+    color: #FFF;
+    transition: 1s;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    color: #DDD;
+}
+ /*the start comment for navbar  */
+.navbar-light .navbar-nav .nav-link{
+    font-size: 20px;
+     color: #FFF; 
+     font-size: 25px;
+} 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #DDD;
+}
+.bg-light{
+    background: #06203f !important;
+    opacity: 0.9;
+   
+}
+
+
+
+
+
+
+
+
+.w-100{
+    height: 700px;
+}
+.carousel-item .btn:not(:disabled):not(.disabled){
+    margin-left: 45%
+}
+.rgba-interface{
+    padding-top: 20%;
+    color: #06203f;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: rgba(221, 221, 221, 1);
+    opacity: 0.9;
+}
+.rgba-interface h2{
+    font-size: 60px;
+    font-weight: bold
+}
+.path{
+    margin-top: 100px;
+    
+}
+.path .btn-primary{
+    background: #06203f;
+    border: none;
+}
+
+
+
+
+.secondSection{
+    margin-top: 50px;
+    color: #06203f;
+}
+.secondSection hr{
+   width: 50px;
+    background: #000
+}
+
+
+.secondSection{
+    margin-top: 50px;
+    
+}
+.secondSection .border-col{
+    margin-top: 40px;
+-webkit-box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.14);
+-moz-box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.14);
+box-shadow: 0px 3px 17px 2px rgba(0,0,0,0.14);
+padding-top: 65px;
+padding-bottom: 65px;
+    transition: 1s;
+    background: #fff;
+    border-radius: 5px;
+     border: 2px solid #fff;
+}
+.secondSection .border-col:hover{
+    border: 2px solid #06203f;
+}
+
+
+
+
+
+
+
+
+
+
+
+.fristTime ,.secondTime{
+    margin-top: 50px;
+    color:  #06203f;
+}
+.fristTime hr ,.secondTime hr{
+    width: 50px;
+    background: #000;
+    margin-bottom: 30px;
+}
+.fristTime .item{
+    background: #06203f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #ddd
+}
+.fristTime .cyrical{
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    margin: auto;
+    color: #06203f;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+
+.secondTime .item{
+    background: #ddd;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #06203f
+}
+.secondTime .cyrical{
+    width: 80px;
+    height: 80px;
+    background: #06203f;
+    margin: auto;
+    color: #ddd;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    padding-top: 30px;
+}
+
+
+
+/* page tow  */
+.overview{
+    width: 100%;
+    max-height:1300px;
+    background-image: url(../images/99.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+}
+.overview .rgba-overview{
+    width: 100%;
+    background: rgba(221, 221, 221, .95);
+    color: #06203f;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.information{
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/c4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information .rgba-information{
+    width: 100%;
+    height: 100%;
+   background: rgba(221, 221, 221, .97);
+}
+
+.myInformtion{
+    direction: rtl;
+}
+
+.cericl-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.myInformtion ul{
+    margin-top: 100px;
+}
+.myInformtion ul li{
+    color: #06203f;
+    font-size: 20px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dd{
+    
+    font-size: 17px;
+}
+
+.new{
+    direction: rtl;
+    width: 100%;
+    max-height: 1200px;
+    background-image: url(../images/v1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #06203f;
+}
+.new h3{
+    padding-top: 50px;
+}
+.new .frist-line{
+    width: 50px;
+    background: #FFF;
+    margin-bottom: 50px;
+}
+.new .rgba-new{
+    width: 100%;
+    padding-bottom: 50px;
+    background: rgba(221, 221, 221, 0.98);
+}
+.new form input{
+    margin-bottom: 15px;
+}
+.submit1{
+    background: #06203f;
+    color: #FFF!important
+}
+
+.submit{
+    background: #06203f;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+.new3{
+    direction: rtl;
+    width: 100%;
+    height: 600px;
+    max-height: 1200px;
+    background-image: url(../images/v1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #06203f;
+}
+.new3 h3{
+    padding-top: 50px;
+}
+.new3 .frist-line{
+    width: 50px;
+    background: #FFF;
+    margin-bottom: 50px;
+}
+.new3 .rgba-new{
+    padding-top: 120px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background: rgba(221, 221, 221, 1);
+}
+.new3 form input{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+/* upload file page*/
+
+.upload{
+    width: 100%;
+    height: 600px;
+    direction: rtl;
+    background-image: url(../images/v1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.upload .upload-rgba{
+    width: 100%;
+    height: 100%;
+   background: rgba(221, 221, 221, .95);
+}
+.upload-rgba h2{
+    padding-top: 30px;
+}
+.upload-rgba input{
+    padding-top: 40px;
+}
+.upload .discrption p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+.upload .discrption a{
+    margin-right: 50px;
+    color: #06203f;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*pay page*/
+
+.pay{
+    width: 100%;
+    height: 600px;
+    direction: rtl;
+    background-image: url(../images/v1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pay .pay-rgba{
+    width: 100%;
+    height: 100%;
+   background: rgba(221, 221, 221, .95);
+}
+.inputWithIcon input{
+    padding-right: 50px;
+}
+
+.inputWithIcon , .inputWithIcon2{
+    position: relative;
+}
+.inputWithIcon img{
+    position: absolute;
+    top: 8;
+    right: 2;
+}
+.inputWithIcon2 input{
+    padding-right: 20px;
+}
+.inputWithIcon .svg-inline--fa{
+    position: absolute;
+    top: 5;
+    right: 4;
+}
+.inputWithIcon2 .svg-inline--fa{
+    position: absolute;
+    top: 8;
+    right: 2;
+}
+.pay-rgba h3{
+    padding-top: 50px;
+}
+.pay-rgba hr{
+    background: #06203f;
+    width: 50px;
+}
+
+.pay-rgba button{
+    background: #06203f;
+    color: #DDD
+}
+
+
+
+
+
+
+
+

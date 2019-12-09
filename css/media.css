@@ -1,0 +1,53 @@
+  
+@media (min-width: 0px) { 
+  	/*body{
+  		background: red;
+  	}*/
+    .carousel-control-next, .carousel-control-prev{
+        
+    }
+
+}
+
+@media (min-width: 576px) { 
+   /*body{
+  		background: #000;
+  	}*/
+        .carousel-control-next, .carousel-control-prev{
+        
+    }
+ 
+}
+
+
+@media (min-width: 768px) {
+   /* body{
+  		background: orange;
+  	}*/
+        .carousel-control-next, .carousel-control-prev{
+        position: absolute!important;
+        top: -400px !important;
+    }
+
+}
+
+
+@media (min-width: 992px) { 
+   /* body{
+  		background: blue;
+  	}  */
+        .carousel-control-next, .carousel-control-prev{
+        
+    }
+
+}
+
+
+@media (min-width: 1200px) { 
+   /* body{
+  		background: #777;
+  	}*/
+        .carousel-control-next, .carousel-control-prev{
+        
+    }
+ }
